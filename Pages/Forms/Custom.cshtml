@@ -1,0 +1,25 @@
+﻿@page
+@model Proiect_Colocviu_Pop_Andrei_Lucian_gr4_FB.Pages.Forms.CustomModel
+@{
+}
+
+<div class="text-center container">
+    <h1>Personalizează-ți ghetele!</h1>
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 pt-5 pb-5 rounded-5 alert-light col-4 ">
+        <input type="text" asp-for="Ghete.MarimeGhete" 
+        placeholder="Mărime ghete... " />
+        <br/>
+        <input type="checkbox" asp-for="Ghete.CrampoaneMetal" placeholder="Crampoane Metal"/>Crampoane Metal
+        <br/>
+        <input type="checkbox" asp-for="Ghete.CrampoanePlastic" placeholder="Crampoane Plastic" />Crampoane Plastic
+        <br />
+        <input type="checkbox" asp-for="Ghete.CrampoaneMixte" placeholder="Crampoane Mixte" />Crampoane Mixte
+        <br />
+        <input type="checkbox" asp-for="Ghete.CrampoaneSintetic" placeholder="Crampoane Sintetic" />Crampoane Sintetic
+        <br />
+        <input type="checkbox" asp-for="Ghete.TalpăSală" placeholder="Talpă Sală" />Talpă Sală
+        <br />
+        <button class="btn btn-primary mt-1" type="submit">Comandă acum </button>
+
+    </form>
+</div>

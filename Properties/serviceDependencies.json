@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Proiect_Colocviu_Pop_Andrei_Lucian_gr4_FBContext"
+    }
+  }
+}
